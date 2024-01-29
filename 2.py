@@ -10,9 +10,9 @@ dfNovo = df.filter (items = dfColunas)
 dfNovo = dfNovo.rename (columns={
     'ï»¿Store ID ': 'ID',
     'Store_Area' : 'Área da Loja',
-    'Items_Available' : 'Itens Disponíveis',
+    'Items_Available' : 'Itens Disponíveis', 
     'Daily_Customer_Count' : 'Visitantes',
-    'Store_Sales' :'Vendas (US$)'})
+    'Store_Sales':'Vendas (US$)'})
 
 #Função que aborda as questões de máximo, mínimo, médio e desvio padrão sobre os itens disponíveis.
 def item():
